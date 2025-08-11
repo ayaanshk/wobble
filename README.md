@@ -1,40 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Wobble — Daily Social Challenge Platform
 
-## Getting Started
+Wobble is a **gamified platform** designed to help individuals overcome social anxiety and build confidence through **small, achievable daily social tasks**.
+With a simple streak system and a clean, approachable UI, Wobble encourages users to step out of their comfort zones — one day at a time.
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+* **Daily Social Challenges** — A new, unique task every day to encourage real-world interaction
+* **Streak Tracking** — Stay motivated by keeping your streak alive
+* **Secure Login** — Google OAuth for quick and safe authentication
+* **Progress Tracking** — View past challenges, completion status, and growth over time
+* **Responsive UI** — Built with TailwindCSS for a clean, mobile-friendly experience
+
+---
+
+## 🛠 Tech Stack
+
+* **Frontend & Backend**: [Next.js](https://nextjs.org/) (API routes for backend logic)
+* **Authentication**: Google OAuth via [NextAuth.js](https://next-auth.js.org/)
+* **Database**: [Supabase](https://supabase.com/) (real-time storage and retrieval)
+* **Styling**: [TailwindCSS](https://tailwindcss.com/)
+
+---
+
+## 📸 Screenshots
+
+*(Add your app screenshots here once deployed — e.g., home page, daily challenge view, streak tracker)*
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/ayaanshk/wobble.git
+cd wobble
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Set up environment variables
+
+Create a `.env.local` file in the root and add:
+
+```bash
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret
+
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_KEY=your_supabase_anon_key
+```
+
+### 4️⃣ Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🌍 Deployment
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+You can easily deploy Wobble to [Vercel](https://vercel.com/):
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+1. Push your code to GitHub
+2. Import your repo into Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome!
+If you’d like to improve Wobble, open a PR or submit an issue in the GitHub repo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
+MIT License — feel free to use, modify, and share.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 💡 Inspiration
+
+Social anxiety can make everyday interactions feel overwhelming.
+Wobble turns confidence-building into a game, helping users grow one small step at a time.
+
+---
+
+If you want, I can also create **a more visual README** with badges, GIF demos, and a streak progress diagram — that makes it stand out a lot more on GitHub.
+
+Do you want me to prepare that upgraded visual version?
