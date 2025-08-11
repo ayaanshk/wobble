@@ -24,13 +24,7 @@ With a simple streak system and a clean, approachable UI, Wobble encourages user
 
 ---
 
-## 📸 Screenshots
-
-*(Add your app screenshots here once deployed — e.g., home page, daily challenge view, streak tracker)*
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### 1️⃣ Clone the repo
 
@@ -75,7 +69,7 @@ You can easily deploy Wobble to [Vercel](https://vercel.com/):
 1. Push your code to GitHub
 2. Import your repo into Vercel
 3. Add environment variables in Vercel dashboard
-4. Deploy 🚀
+4. Deploy 
 
 ---
 
@@ -86,12 +80,6 @@ If you’d like to improve Wobble, open a PR or submit an issue in the GitHub re
 
 ---
 
-## 📄 License
-
-MIT License — feel free to use, modify, and share.
-
----
-
 ## 💡 Inspiration
 
 Social anxiety can make everyday interactions feel overwhelming.
@@ -99,6 +87,3 @@ Wobble turns confidence-building into a game, helping users grow one small step 
 
 ---
 
-If you want, I can also create **a more visual README** with badges, GIF demos, and a streak progress diagram — that makes it stand out a lot more on GitHub.
-
-Do you want me to prepare that upgraded visual version?
